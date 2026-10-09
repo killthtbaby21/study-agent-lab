@@ -1,0 +1,14 @@
+{
+  "name": "study-agent-lab",
+  "version": "0.1.0",
+  "private": true,
+  "description": "An observable local knowledge agent for learning tool calling.",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/cli.js",
+    "demo": "node src/cli.js --demo",
+    "test": "node --test",
+    "eval": "node scripts/evaluate.js"
+  }
+}
